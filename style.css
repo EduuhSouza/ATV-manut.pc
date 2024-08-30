@@ -438,3 +438,44 @@ section.modulo.parallax:after{
         color: white;
     }
 
+/* Avancos */
+
+.avancos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.titulo h2 {
+    color: #fff;
+    background-color: #034001;
+    padding: 12px 70px;
+    font-size: 34px;
+    font-family: sans-serif;
+    box-shadow: -6px 6px #1bf231;
+}
+
+.txt-avancos {
+    color: #fff;
+    margin: 40px 40px;
+    padding: 10px 35px;
+    border-left: solid 3px #067238;
+    position: relative;
+}
+
+.txt-avancos::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -3px;
+    width: calc(60% + 2px); 
+    height: 4px; 
+    background-color: #067238;
+}
+.txt-avancos p {
+    padding: 20px;
+    border-top: solid 3px #1bf231;
+}
+
