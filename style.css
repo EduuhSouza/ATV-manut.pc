@@ -13,12 +13,8 @@
     background: linear-gradient(var(--verde-claro), black);
 }
 
-.darkmode::-webkit-scrollbar{
-    background-color: black;
-}
 
 /* ROOT CORES */
-
 :root {
     --verde: #067238;
     --verde-dark: #034001;
@@ -43,9 +39,6 @@ body{
 
 /*---------LOGO NAVBAR ----------  */
 
-.logo-img{
-   
-}
 
 .logo-img img{
     width: 18%;
@@ -235,7 +228,7 @@ justify-content: end;
     /* LOGO */
     .logo-img img{
         width: 30%;
-        /* margin-left: -60%; */
+        margin-left: -50%;
     }
 
     .logo-img img:hover{
@@ -438,6 +431,49 @@ justify-content: end;
     color: black;
 }
 
+/* CURIOSIDADE MARISSA MAYER */
+.dark-mode .titulo-curiosidade{
+    color: var(--verde);
+    text-shadow: 0 0 5px var(--verde);
+    border-bottom: solid var(--verde) ;
+
+}
+
+/* TEXTO */
+.dark-mode .tx-curiosidade p{
+    color: black;
+}
+
+/* BOX CURIOSIDADE */
+.dark-mode .box-tx-curiosidade{
+    border-bottom: solid var(--verde-claro);
+    border-left: solid var(--verde-claro);
+}
+
+.dark-mode .tx-curiosidade span{
+    color: var(--verde);
+    text-shadow: 0 0 10px var(--verde);
+}
+
+
+
+/* PONTOS NEGATIVOS DA TECNOLOGIA */
+
+.dark-mode .titulo-pontos{
+    color: var(--verde-claro);
+    text-shadow: var(--verde-claro);
+}
+
+/* BOX PONTOS NEGATIVOS */
+
+.dark-mode .pontos{
+    border-bottom: solid var(--verde-claro);
+    border-left: solid var(--verde-claro);
+}
+
+.dark-mode .tx-p p{
+    color: black;
+}
 
 
 /* FORMATAÇÃO BOTAO DARKMODE */
@@ -569,12 +605,17 @@ section.modulo.parallax:after{
     }
 
     section.modulo.parallax-1{
-        background-image: url(https://cceduc.com.br/wp-content/uploads/2021/04/1-10-1.jpg)
+        background-image: url(https://cceduc.com.br/wp-content/uploads/2021/04/1-10-1.jpg);
     }
     
     section.modulo.parallax-2{
         
-        background-image: url(https://cdn.riddle.com/embeds/v2/images/q_80,c_fill,w_960,h_540/5ae/5aef2b2daacf6c1bd8083e0038172044.jpg)
+        background-image: url(https://cdn.riddle.com/embeds/v2/images/q_80,c_fill,w_960,h_540/5ae/5aef2b2daacf6c1bd8083e0038172044.jpg);
+    }
+
+    section.modulo.parallax-3{
+        
+        background-image: url(https://qph.cf2.quoracdn.net/main-qimg-fc543bf6a8000af03a11ee57ec347694-lq);
     }
 
      /* TEXTOS COMPUTADORES PIONEIROS */
@@ -635,7 +676,8 @@ section.modulo.parallax:after{
     border-top: solid var(--verde-claro) ;
     }
 
-/* Avancos */
+
+/*COMEÇO AVANÇOS */
 
 .avancos {
     display: flex;
@@ -676,5 +718,70 @@ section.modulo.parallax:after{
     border-top: solid 3px #1bf231;
     font-size: 17px;
 }
+/*FIM AVANÇOS */
 
+
+/* CURIOSIDADE MARISSA MAYER */
+.titulo-curiosidade{
+    margin-top: 5em;
+    text-align: center;
+    color: var(--verde-claro);
+    text-shadow: 0 0 5px var(--verde-claro);
+    font-size: 1.5em;
+    font-family: sans-serif;
+    border-bottom: solid var(--verde) ;
+    padding: 1em;
+}
+
+.img-curiosidade img{
+    background-size: cover ;
+}
+
+/* TEXTO */
+.tx-curiosidade{
+    text-align: center;
+    margin: 1em;
+    color: white;
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+/* BOX CURIOSIDADE */
+.box-tx-curiosidade{
+    margin: 5em;
+    border-bottom: solid var(--verde-claro);
+    border-left: solid var(--verde-claro);
+}
+
+.tx-curiosidade span{
+    color: var(--verde-claro);
+    text-shadow: 0 0 10px var(--verde-claro);
+}
+
+
+
+/* PONTOS NEGATIVOS DA TECNOLOGIA */
+
+.titulo-pontos{
+    color: var(--verde-claro);
+    text-shadow: var(--verde-claro);
+    text-align: center;
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+/* BOX PONTOS NEGATIVOS */
+
+.pontos{
+    border-bottom: solid var(--verde-claro);
+    border-left: solid var(--verde-claro);
+}
+
+.tx-p p{
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    margin: 2em;
+}
 
