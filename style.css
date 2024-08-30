@@ -10,7 +10,6 @@
 
 ::-webkit-scrollbar-thumb{
     background: linear-gradient(var(--verde-claro), black);
-    border-radius: 2em;
 }
 
 .darkmode::-webkit-scrollbar{
@@ -238,6 +237,51 @@ justify-content: end;
         width: 35%;
 
     }
+
+    /* TEXTOS COMPUTADORES PIONEIROS */
+
+    .titulo-tx{
+        margin-top: 10em;
+        font-size: 1em;
+        font-family: sans-serif;
+        color: white;
+        background-color: var(--verde);
+        padding: 1em;
+        width: 70%;
+        border-radius: 0 1em 1em 0;
+    }
+
+    /* TEXTO NEON */
+
+    .titulo-neon{
+        color: var(--verde-claro);
+        text-shadow: 0 0 10px var(--verde-claro);
+        font-size: 2em;
+        text-align: center;
+        font-family: sans-serif;
+        margin-top: 3em;
+    }
+
+    /* BOX IMG */
+    .img-pc{
+        width: 100%;
+        box-shadow: 0 0 10px var(--verde);
+    }
+
+    .img-pc img{
+        width: 100%;
+    }
+        /* TEXTO PC */
+
+        
+    .texto-pc{
+        text-align: center;
+        margin-top: 2em;
+        color: white;
+        font-size: 1.2em;
+        font-family: sans-serif;
+        border-top: solid var(--verde-claro) ;
+        }
 }
 
 
@@ -348,25 +392,6 @@ main{
     padding: 0;
 }
 
-section.modulo p{
-    margin-bottom: 20px;
-    text-align: justify;
-    font-size: 1.5em;
-
-}
-
-section.modulo h2{
-    margin-bottom: 20px;
-    font-size: 3em;
-    text-align: center;
-}
-
-section.modulo.content{
-    padding: 40px 0;
-    background: rgb(0, 0, 0);
-
-}
-
 section.modulo.parallax{
     display: flex;
     flex-direction: column;
@@ -385,16 +410,16 @@ section.modulo.parallax h1{
     color: var(--verde-claro);
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
     text-align: center;
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: sans-serif;
-    z-index: 50;
+    /* z-index: 1; */
 }
 
 section.modulo.parallax:after{
     content: "";
     height: 100%;
     width: 100%;
-    z-index: 8; 
+    /* z-index: 1;  */
     position: absolute;
     background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0, 0,0,0) 50%, rgb(0, 0, 0)) ;
     
@@ -403,5 +428,13 @@ section.modulo.parallax:after{
     section.modulo.parallax-1{
         background-image: url(https://cceduc.com.br/wp-content/uploads/2021/04/1-10-1.jpg)
     }
+    
+    section.modulo.parallax-2{
+        
+        background-image: url(https://cdn.riddle.com/embeds/v2/images/q_80,c_fill,w_960,h_540/5ae/5aef2b2daacf6c1bd8083e0038172044.jpg)
+    }
 
+    .titulo-tx{
+        color: white;
+    }
 
