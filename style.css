@@ -328,6 +328,7 @@ justify-content: end;
 .txt-avancos p {
     padding: 20px;
     border-top: solid 3px #1bf231;
+    font-size: 3em;
 }
 }
 
