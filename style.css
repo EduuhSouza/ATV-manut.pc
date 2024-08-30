@@ -251,6 +251,17 @@ justify-content: end;
         border-radius: 0 1em 1em 0;
     }
 
+      .impacto-tx{
+        text-align: center;
+        color: white;
+        width: 70%;
+        font-size: 1em;
+        padding: 1em;
+
+        background-color: var(--verde-dark);
+        border: 1px 0 0 1px solid var(--verde-claro);
+    }
+
     /* TEXTO NEON */
 
     .titulo-neon{
@@ -280,13 +291,21 @@ justify-content: end;
         /* TEXTO PC */
 
         
-    .texto-pc{
+        
+    .texto-pc,
+    .texto-criacao{
         text-align: center;
         margin-top: 2em;
-        color: white;
+        color: rgb(0, 207, 10);
+        text-shadow: 0px 0px 4px #1bf231;
         font-size: 1.2em;
         font-family: sans-serif;
         border-top: solid var(--verde-claro) ;
+        }
+
+        .logos{
+          gap: 10px;
+          justify-content: s;
         }
     /* Avancos */
 
