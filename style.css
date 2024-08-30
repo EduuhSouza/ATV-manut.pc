@@ -369,6 +369,52 @@ justify-content: end;
     border-top: solid var(--verde) ;
     }
 
+/* DARKMODE COMEÇO*/
+
+.dark-mode{
+    background-color: white;
+    transition: all .5s ease;
+}
+
+/* TEXTOS COMPUTADORES PIONEIROS */
+
+.dark-mode .titulo-tx{
+    margin-top: 10em;
+    font-size: 1em;
+    font-family: sans-serif;
+    color: black;
+    background-color: var(--verde-claro);
+}
+
+/* TEXTO NEON */
+
+.dark-mode .titulo-neon{
+    color: var(--verde);
+    text-shadow: 0 0 10px var(--verde);
+}
+
+    /* TEXTO PC */
+
+.dark-mode .texto-pc{
+    color: black;
+    border-top: solid var(--verde) ;
+    }
+
+  
+/* TEXTO NEON */
+
+.dark-mode .titulo-neon{
+    color: var(--verde);
+    text-shadow: 0 0 10px var(--verde);
+}
+
+/* AVANÇOS */
+
+.dark-mode .txt-avancos p{
+    color: black;
+}
+
+
 
 /* FORMATAÇÃO BOTAO DARKMODE */
 section{
