@@ -1,3 +1,4 @@
+
 @charset "utf-8";
 
 
@@ -42,10 +43,14 @@ body{
 
 /*---------LOGO NAVBAR ----------  */
 
+.logo-img{
+   
+}
+
 .logo-img img{
     width: 18%;
     position: absolute;
-    margin-left: -50%;
+    margin-left: -25%;
     border-radius: 30%;
     box-shadow: 0 10px 30px var(--verde-dark);
     z-index: 1;
@@ -582,6 +587,7 @@ section.modulo.parallax:after{
     padding: 1em;
     width: 70%;
     border-radius: 0 1em 1em 0;
+    background-color: var(--verde-dark);
 }
 
 /* TEXTO NEON */
@@ -593,17 +599,18 @@ section.modulo.parallax:after{
     text-align: center;
     font-family: sans-serif;
     margin-top: 3em;
+
 }
 
 /* IMG PC FORMATAÇÃO */
 
-.img-pc{
+.img-pc {
     width: 100%;
-    box-shadow: 0 0 10px var(--verde);
 }
 
 .img-pc img{
     width: 100%;
+    box-shadow: 0 0 10px var(--verde-claro);
 }
 
 
