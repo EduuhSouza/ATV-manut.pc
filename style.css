@@ -380,10 +380,6 @@ section{
     margin: auto;
 }
 
-main{
-    display: block;
-
-}
 
 .container{
     width: 100%;
@@ -434,9 +430,63 @@ section.modulo.parallax:after{
         background-image: url(https://cdn.riddle.com/embeds/v2/images/q_80,c_fill,w_960,h_540/5ae/5aef2b2daacf6c1bd8083e0038172044.jpg)
     }
 
-    .titulo-tx{
-        color: white;
+     /* TEXTOS COMPUTADORES PIONEIROS */
+
+   .titulo-tx{
+    margin-top: 10em;
+    font-size: 1em;
+    font-family: sans-serif;
+    color: white;
+    background-color: var(--verde);
+    padding: 1em;
+    width: 70%;
+    border-radius: 0 1em 1em 0;
+}
+
+/* TEXTO NEON */
+
+.titulo-neon{
+    color: var(--verde-claro);
+    text-shadow: 0 0 10px var(--verde-claro);
+    font-size: 2em;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 3em;
+}
+
+/* IMG PC FORMATAÇÃO */
+
+.img-pc{
+    width: 100%;
+    box-shadow: 0 0 10px var(--verde);
+}
+
+.img-pc img{
+    width: 100%;
+}
+
+
+/* BOX IMG */
+
+.container-pc{
+    display: flex;
+    padding: 4em;
+}
+
+    /* TEXTO PC */
+
+.texto-pc{
+    width: 100%;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    margin-top: 2em;
+    color: white;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    border-top: solid var(--verde-claro) ;
     }
+
 
 /* Avancos */
 
