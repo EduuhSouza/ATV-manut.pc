@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ICONES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+    <!-- javascript MENU MOBILE -->
+<script src="menu.js" defer></script>
+    <!-- FIM javascript MENU MOBILE -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Manutenção de computadores </title>
+</head>
+<body>
+    
+    
+    <header class="header">
+        <div class="logo-img">
+        <img src="imgs/logo.manut.jpg" alt="">
+    </div>
+
+        <!-- DARKMODE   -->
+        <section class="darkmode">
+
+            <label>
+                <input id="check" type="checkbox" id="check">
+        
+                <i class="fa-solid fa-sun" id="sun"></i>
+                <i class="fa-solid fa-moon" id="moon"></i>
+        
+                <span class="toggle"></span>
+            </label>
+        
+        </section>
+    
+        <script>
+            const check = document.getElementById('check');
+        
+            check.addEventListener('click', () => {
+                document.body.classList.toggle('dark-mode');
+            })
+        
+        
+        </script>
+
+    <nav class="navbar">
+       
+        <a href=""> Inicio </a>
+        <a href=""> História Tec </a>
+        <a href=""> aaaaa </a>
+    </nav>
+
+
+    
+<!-- MOBILE -->
+
+<div class="btn-abrir-menu" id="btn-menu"> <!-- COMEÇO ABRIR MENU -->
+    <i class="fa-solid fa-bars"></i>
+</div> <!-- FINAL ABRIR MENU -->
+
+
+<div class="menu-mobile" id="menu-mobile"> <!-- COMEÇO MENU MOBILE-->
+    <div class="btn-fechar">
+        <i class="fa-solid fa-xmark"></i>
+    </div>
+
+    <nav class="mobile-nav">  <!-- COMEÇO NAVBAR MENU -->
+        <a href=""> Inicio </a>
+        <a href=""> História Tec </a>
+        <a href=""> aaaaa </a>
+    </nav> <!-- FINAL NAVBAR MENU -->
+    
+</div> <!-- FINAL MENU MOBILE-->
+<div class="overlay-menu" id="overlay-menu"></div>
+
+<!-- FIM MOBILE -->
+
+
+</header>
+
+
+
+</body>
+</html>
