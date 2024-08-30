@@ -445,6 +445,7 @@ section.modulo.parallax:after{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 30px;
 }
 
 
