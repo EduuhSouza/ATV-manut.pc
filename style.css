@@ -334,6 +334,11 @@ justify-content: end;
 
 /* DARKMODE COMEÇO*/
 
+.darkmode .txt-avancos, .titulo h2{
+    color: #000;
+}
+    
+
 .dark-mode{
     background-color: white;
     transition: all .5s ease;
