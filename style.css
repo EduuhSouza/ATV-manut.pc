@@ -735,7 +735,7 @@ section.modulo.parallax:after{
 }
 
 .img-curiosidade img{
-    background-size: cover ;
+width: 90%;
 }
 
 /* TEXTO */
