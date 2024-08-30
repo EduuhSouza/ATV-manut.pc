@@ -340,6 +340,31 @@ justify-content: end;
 }
 
 
+/* TEXTOS COMPUTADORES PIONEIROS */
+
+.dark-mode .titulo-tx{
+    margin-top: 10em;
+    font-size: 1em;
+    font-family: sans-serif;
+    color: black;
+    background-color: var(--verde-claro);
+}
+
+/* TEXTO NEON */
+
+.dark-mode .titulo-neon{
+    color: var(--verde);
+    text-shadow: 0 0 10px var(--verde);
+}
+
+    /* TEXTO PC */
+
+.dark-mode .texto-pc{
+    color: black;
+    border-top: solid var(--verde) ;
+    }
+
+
 /* FORMATAÇÃO BOTAO DARKMODE */
 section{
     top: 0;
