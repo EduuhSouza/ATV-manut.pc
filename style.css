@@ -238,7 +238,7 @@ justify-content: end;
 
     }
 
-    /* TEXTOS COMPUTADORES PIONEIROS */
+   /* TEXTOS COMPUTADORES PIONEIROS */
 
     .titulo-tx{
         margin-top: 10em;
@@ -263,6 +263,12 @@ justify-content: end;
     }
 
     /* BOX IMG */
+    
+    .container-pc{
+        display: flex;
+        flex-direction: column;
+    }
+
     .img-pc{
         width: 100%;
         box-shadow: 0 0 10px var(--verde);
