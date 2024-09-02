@@ -46,8 +46,9 @@ html {
 
 
 .logo-img img{
-    width: 18%;
+    width: 15%;
     position: absolute;
+    float: left;
     margin-left: -25%;
     border-radius: 30%;
     box-shadow: 0 10px 30px var(--verde-dark);
@@ -59,6 +60,7 @@ html {
 .logo-img img:hover{
     width: 22%;
 }
+
 
 /* CABEÇALHO NAVBAR*/
 
@@ -480,6 +482,15 @@ justify-content: end;
     color: black;
 }
 
+.marcador-pontos{
+color: var(--verde-claro);
+    text-shadow: 0 0 10px var(--verde);
+}
+
+.dark-mode .marcador-pontos{
+    color: var(--verde);
+    text-shadow: 0 0 10px var(--verde);
+}
 
 /* FORMATAÇÃO BOTAO DARKMODE */
 section{
